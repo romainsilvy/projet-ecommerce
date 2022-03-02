@@ -1,0 +1,45 @@
+@import"https://fonts.googleapis.com/css?family=Roboto&display=swap";@import"https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800&display=swap";*{font-family:"Inconsolata",monospace}button{font-family:"Roboto",sans-serif}.add_product{position:absolute;height:100%;border-radius:30px;border:2px solid #1d1d1d;background-color:#fff;transform:scale(0);margin-left:50%;display:inline-block}.add_product_nb{position:absolute;width:40px;height:100%;border-radius:30px;border:2px solid #1d1d1d;background-color:#fff;transform:scale(0);margin-left:0%}.add_product_size{position:absolute;width:50px;height:100%;border-radius:30px;border:2px solid #1d1d1d;background-color:#fff;transform:scale(0);margin-right:50%;outline:0px}#prod:hover .add_product{transition:all .4s ease-in-out;transform:scale(1)}#prod:hover .add_product_nb{transition:all .3s ease-in-out;transform:scale(1)}#prod:hover .add_product_size{transition:all .2s ease-in-out;transform:scale(1)}#prod:hover img{transform:scale(1.2);overflow:hidden}
+
+
+/* Contact */
+button {
+    width: 150px;
+    height: 70px;
+    margin: 30px;
+}
+.allC {
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.bThree {
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    border-radius: 10px;
+    border: solid 3px rgba(224, 255, 49);
+    transition: 0.7s;
+}
+.bThree:hover {
+    transform: translateY(-1vh);
+    box-shadow: rgba(224, 255, 49, 0.3) 0px 3px, rgba(224, 255, 49, 0.2) 0px 6px, rgba(224, 255, 49, 0.1) 0px 9px, rgba(224, 255, 49, 0.05) 0px 12px;
+}
+
+
+label {
+    color: white;
+}
+.formContact {
+    width: 450px;
+    height: 550px;
+}
+#mail {
+    width: 80%;
+    height: 5%;
+    margin: 20px;
+}
+#msg {
+    width: 80%;
+    height: 50%;
+    resize: none;
+}
